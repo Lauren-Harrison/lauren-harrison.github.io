@@ -1,0 +1,458 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Cake Decorating - Lauren Harrison</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+
+	<!-- ============================================================ -->
+	<!-- WHERE TO PUT THE CSS: Right here in the <head> section!       -->
+	<!-- ============================================================ -->
+	<style>
+		/* Gallery styles */
+		.cake-gallery {
+			position: relative;
+			overflow: hidden;
+		}
+
+		.cake-gallery .gallery-img {
+			width: 100%;
+		}
+
+		.cake-gallery .gallery-arrows {
+			display: flex;
+			justify-content: space-between;
+			position: absolute;
+			top: 50%;
+			left: 0;
+			right: 0;
+			transform: translateY(-50%);
+			padding: 0 8px;
+			pointer-events: none;
+		}
+
+		.cake-gallery .gallery-arrows button {
+			pointer-events: auto;
+			background: transparent !important;
+			color: rgba(255, 255, 255, 0.7) !important;
+			border: none !important;
+			box-shadow: none !important;
+			outline: none !important;
+			font-size: 32px;
+			font-weight: 300;
+			cursor: pointer;
+			transition: opacity 0.2s, transform 0.2s;
+			padding: 0 6px;
+			line-height: 1;
+			text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+			text-decoration: none !important;
+		}
+
+		.cake-gallery .gallery-arrows button:hover {
+			color: rgba(255, 255, 255, 0.95) !important;
+			transform: scale(1.15);
+			background: transparent !important;
+			border: none !important;
+		}
+
+		.cake-gallery .gallery-arrows button:active,
+		.cake-gallery .gallery-arrows button:focus {
+			transform: scale(0.9);
+			background: transparent !important;
+			border: none !important;
+			outline: none !important;
+		}
+
+		.cake-gallery .image-counter {
+			position: absolute;
+			bottom: 10px;
+			right: 14px;
+			background: rgba(0, 0, 0, 0.4);
+			color: rgba(255, 255, 255, 0.7);
+			padding: 2px 12px;
+			border-radius: 20px;
+			font-size: 12px;
+			font-weight: 400;
+			letter-spacing: 0.5px;
+			font-family: "Open Sans", sans-serif;
+		}
+
+		.cake-gallery.single-photo .gallery-arrows {
+			display: none !important;
+		}
+
+		.cake-gallery.single-photo .image-counter {
+			display: none !important;
+		}
+	</style>
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+
+				<!-- Header -->
+				<header id="header">
+					<a href="index.html" class="logo"><strong>Lauren Harrison</strong></a>
+					<ul class="icons">
+						<li><a href="https://linkedin.com/in/your-profile" target="_blank"
+								class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://orcid.org/0009-0003-4067-8246" target="_blank"
+								class="icon brands fa-orcid"><span class="label">ORCID</span></a></li>
+						<li><a href="mailto:lharrison@uvic.ca" class="icon solid fa-envelope"><span
+									class="label">Email</span></a></li>
+					</ul>
+				</header>
+
+				<!-- Content -->
+				<section>
+					<header class="main">
+						<h1>🎂 Cake Decorating</h1>
+					</header>
+
+					<p>Throughout my undergraduate degree, I worked as a cake decorator at Thrifty Foods for just over 5
+						years! I loved my job so much, and despite no longer working there, I still love baking and
+						decorating cakes and treats in my free time! I love that I have an outlet where I can put down
+						my academic brain and use the more creative sides of me. Below are some of my favourite cakes
+						I've made over
+						the years!</p>
+
+					<hr class="major" />
+
+					<!-- Gallery Grid -->
+					<div class="row">
+						<!-- Cake 1: Emoji (1 photo - no arrows) -->
+						<div class="col-4 col-12-small">
+							<div class="box">
+								<h3>😊 Emoji Cake</h3>
+								<div class="cake-gallery single-photo">
+									<div class="gallery-img">
+										<span class="image fit">
+											<img src="images/cake photos/emoji.JPG" alt="Emoji Cake" />
+										</span>
+									</div>
+									<div class="gallery-arrows">
+										<button class="arrow-left">‹</button>
+										<button class="arrow-right">›</button>
+									</div>
+									<div class="image-counter">1 / 1</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Cake 2: Sun & Moon (3 photos) -->
+						<div class="col-4 col-12-small">
+							<div class="box">
+								<h3>🌙 Sun & Moon Cake</h3>
+								<p>Astronomy themed cake I made for my 23rd birthday!</p>
+								<div class="cake-gallery">
+									<div class="gallery-img">
+										<span class="image fit">
+											<img src="images/cake photos/sun_and_moon.JPG" alt="Sun and Moon Cake" />
+										</span>
+									</div>
+									<div class="gallery-arrows">
+										<button class="arrow-left">‹</button>
+										<button class="arrow-right">›</button>
+									</div>
+									<div class="image-counter">1 / 1</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Cake 3: Flower (2 photos) -->
+						<div class="col-4 col-12-small">
+							<div class="box">
+								<h3>🌸 Flower Cake</h3>
+								<p>Full slab cake (serves 70-90 people!). I remember making all the flowers took a
+									while!</p>
+								<div class="cake-gallery">
+									<div class="gallery-img">
+										<span class="image fit">
+											<img src="images/cake photos/full_slab.JPG" alt="Flower Cake" />
+										</span>
+									</div>
+									<div class="gallery-arrows">
+										<button class="arrow-left">‹</button>
+										<button class="arrow-right">›</button>
+									</div>
+									<div class="image-counter">1 / 1</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Row 2 -->
+					<div class="row">
+						<!-- Cake 4: Firetruck (1 photo) -->
+						<div class="col-4 col-12-small">
+							<div class="box">
+								<h3>🚒 Firetruck Cake</h3>
+								<div class="cake-gallery single-photo">
+									<div class="gallery-img">
+										<span class="image fit">
+											<img src="images/cake photos/fire_truck.PNG" alt="Firetruck Cake" />
+										</span>
+									</div>
+									<div class="gallery-arrows">
+										<button class="arrow-left">‹</button>
+										<button class="arrow-right">›</button>
+									</div>
+									<div class="image-counter">1 / 1</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Cake 5: Galaxy (2 photos) -->
+						<div class="col-4 col-12-small">
+							<div class="box">
+								<h3> Simple Chocolate Cake</h3>
+								<p>I think this is one of my favourite celebration cakes I had made!</p>
+								<div class="cake-gallery">
+									<div class="gallery-img">
+										<span class="image fit">
+											<img src="images/cake photos/choc_cake1.JPG" alt="Galaxy Cake" />
+										</span>
+									</div>
+									<div class="gallery-img" style="display: none;">
+										<span class="image fit">
+											<img src="images/cake photos/choc_cake2.JPG" alt="Extra view" />
+										</span>
+									</div>
+									<div class="gallery-arrows">
+										<button class="arrow-left">‹</button>
+										<button class="arrow-right">›</button>
+									</div>
+									<div class="image-counter">1 / 2</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Cake 6: Unicorn (1 photo) -->
+						<div class="col-4 col-12-small">
+							<div class="box">
+								<h3>Cupcakes</h3>
+								<p>Cupcakes in the shape of a 10 with edible chocolate butterflies</p>
+								<div class="cake-gallery single-photo">
+									<div class="gallery-img">
+										<span class="image fit">
+											<img src="images/cake photos/10_cupcakes.JPG" alt="Unicorn Cake" />
+										</span>
+									</div>
+									<div class="gallery-arrows">
+										<button class="arrow-left">‹</button>
+										<button class="arrow-right">›</button>
+									</div>
+									<div class="image-counter">1 / 1</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Row 3 -->
+					<div class="row">
+						<!-- Cake 7: Wedding (1 photo) -->
+						<div class="col-4 col-12-small">
+							<div class="box">
+								<h3>Unicorn Cupcakes</h3>
+								<p>I love any pastel colours on cake!</p>
+								<div class="cake-gallery single-photo">
+									<div class="gallery-img">
+										<span class="image fit">
+											<img src="images/cake photos/unicorn.JPG" alt="Wedding Cake" />
+										</span>
+									</div>
+									<div class="gallery-arrows">
+										<button class="arrow-left">‹</button>
+										<button class="arrow-right">›</button>
+									</div>
+									<div class="image-counter">1 / 2</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Cake 5: Galaxy (2 photos) -->
+						<div class="col-4 col-12-small">
+							<div class="box">
+								<h3> Math Cupcakes</h3>
+								<p>Loved the opportunity to put math on cupcakes</p>
+								<div class="cake-gallery">
+									<div class="gallery-img">
+										<span class="image fit">
+											<img src="images/cake photos/math1.JPG" alt="Galaxy Cake" />
+										</span>
+									</div>
+									<div class="gallery-img" style="display: none;">
+										<span class="image fit">
+											<img src="images/cake photos/math2.JPG" alt="Extra view" />
+										</span>
+									</div>
+									<div class="gallery-arrows">
+										<button class="arrow-left">‹</button>
+										<button class="arrow-right">›</button>
+									</div>
+									<div class="image-counter">1 / 2</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Cake 9: Space (1 photo) -->
+						<div class="col-4 col-12-small">
+							<div class="box">
+								<h3>🐸 Frog Cake</h3>
+								<p>One of my favourite cakes I've ever made! </p>
+								<div class="cake-gallery">
+									<div class="gallery-img">
+										<span class="image fit">
+											<img src="images/cake photos/frog1.jpg" alt="Frog Cake" />
+										</span>
+									</div>
+									<div class="gallery-img" style="display: none;">
+										<span class="image fit">
+											<img src="images/cake photos/frog2.jpg" alt="Extra view" />
+										</span>
+									</div>
+									<div class="gallery-arrows">
+										<button class="arrow-left">‹</button>
+										<button class="arrow-right">›</button>
+									</div>
+									<div class="image-counter">1 / 2</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+			</div>
+
+			<hr class="major" />
+
+
+			</section>
+
+		</div>
+	</div>
+
+	<!-- Sidebar -->
+	<div id="sidebar">
+		<div class="inner">
+
+			<!-- Spacer to maintain layout -->
+			<div style="height: 3.5em;"></div>
+
+			<!-- Menu -->
+			<nav id="menu">
+				<header class="major">
+					<h2>Menu</h2>
+				</header>
+
+				<ul>
+					<li><a href="index.html">Home</a></li>
+
+					<li><a href="about_me.html">About Me</a></li>
+
+					<li>
+						<span class="opener">Research</span>
+						<ul>
+							<li><a href="research.html">Projects & Experience</a></li>
+							<li><a href="cv.html">CV</a></li>
+						</ul>
+					</li>
+
+					<li><a href="#">Triathlon</a></li>
+
+					<li><a href="contact.html">Contact Me</a></li>
+				</ul>
+			</nav>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<p class="copyright">
+					&copy; Lauren Harrison.
+					Design: <a href="https://html5up.net">HTML5 UP</a>.
+				</p>
+			</footer>
+
+		</div>
+	</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+	<!-- Gallery navigation script -->
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			document.querySelectorAll('.cake-gallery').forEach(function (gallery) {
+				var images = gallery.querySelectorAll('.gallery-img');
+				var totalImages = images.length;
+				var currentIndex = 0;
+
+				// If only 1 image, hide arrows and counter
+				if (totalImages <= 1) {
+					gallery.classList.add('single-photo');
+					return;
+				}
+
+				// Show first image
+				images.forEach(function (img, i) {
+					img.style.display = (i === 0) ? 'block' : 'none';
+				});
+
+				// Update counter
+				var counter = gallery.querySelector('.image-counter');
+				if (counter) {
+					counter.textContent = '1 / ' + totalImages;
+				}
+
+				// Arrow handlers
+				var leftArrow = gallery.querySelector('.arrow-left');
+				var rightArrow = gallery.querySelector('.arrow-right');
+
+				leftArrow.addEventListener('click', function (e) {
+					e.preventDefault();
+					e.stopPropagation();
+					currentIndex = (currentIndex - 1 + totalImages) % totalImages;
+					updateGallery();
+				});
+
+				rightArrow.addEventListener('click', function (e) {
+					e.preventDefault();
+					e.stopPropagation();
+					currentIndex = (currentIndex + 1) % totalImages;
+					updateGallery();
+				});
+
+				function updateGallery() {
+					images.forEach(function (img, i) {
+						img.style.display = (i === currentIndex) ? 'block' : 'none';
+					});
+
+					if (counter) {
+						counter.textContent = (currentIndex + 1) + ' / ' + totalImages;
+					}
+				}
+			});
+		});
+	</script>
+
+</body>
+
+</html>
