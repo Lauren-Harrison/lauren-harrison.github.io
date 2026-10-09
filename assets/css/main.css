@@ -211,7 +211,7 @@ body,
 input,
 select,
 textarea {
-  color: #7f888f;
+  color: #000000;
   font-family: "Open Sans", sans-serif;
   font-size: 13pt;
   font-weight: 400;
@@ -269,7 +269,7 @@ a:hover strong {
 
 strong,
 b {
-  color: #3d4449;
+  color: #000000;
   font-weight: 600;
 }
 
@@ -279,7 +279,7 @@ i {
 }
 
 p {
-  margin: 0 0 2em 0;
+  margin: 0 0 1em 0;
 }
 
 h1,
@@ -288,7 +288,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #3d4449;
+  color: #000000;
   font-family: "Roboto Slab", serif;
   font-weight: 700;
   line-height: 1.5;
@@ -405,7 +405,7 @@ hr {
 }
 
 hr.major {
-  margin: 3em 0;
+  margin: 1.5em 0;
 }
 
 .align-left {
@@ -3096,7 +3096,7 @@ button:disabled,
 }
 
 #main>.inner>section {
-  padding: 6em 0 4em 0;
+  padding: 2em 0 1.5em 0;
   border-top: solid 2px rgba(210, 215, 217, 0.75);
 }
 
@@ -3110,7 +3110,7 @@ button:disabled,
   }
 
   #main>.inner>section {
-    padding: 5em 0 3em 0;
+    padding: 2em 0 1.5em 0;
   }
 }
 
@@ -3120,7 +3120,7 @@ button:disabled,
   }
 
   #main>.inner>section {
-    padding: 4em 0 2em 0;
+    padding: 1.75em 0 1.25em 0;
   }
 }
 
@@ -3130,7 +3130,7 @@ button:disabled,
   }
 
   #main>.inner>section {
-    padding: 3em 0 1em 0;
+    padding: 1.5em 0 1em 0;
   }
 }
 
@@ -3394,7 +3394,7 @@ button:disabled,
   display: -ms-flex;
   display: flex;
   border-bottom: solid 5px #f56a6a;
-  padding: 6em 0 1em 0;
+  padding: 2.5em 0 1em 0;
   position: relative;
 }
 
@@ -3419,7 +3419,7 @@ button:disabled,
 
 @media screen and (max-width: 1680px) {
   #header {
-    padding-top: 5em;
+    padding-top: 2.5em;
   }
 }
 
@@ -3444,7 +3444,7 @@ button:disabled,
 
 /* Banner */
 #banner {
-  padding: 6em 0 4em 0;
+  padding: 2em 0 1.5em 0;
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
@@ -3477,8 +3477,8 @@ button:disabled,
   -ms-flex-shrink: 0;
   flex-shrink: 0;
   display: block;
-  margin: 0 0 2em 4em;
-  width: 50%;
+  margin: 0 0 1em 3em;
+  width: 40%;
 }
 
 #banner .image img {
@@ -3527,8 +3527,8 @@ button:disabled,
     -webkit-flex-shrink: 0;
     -ms-flex-shrink: 0;
     flex-shrink: 0;
-    margin: 0 0 4em 0;
-    height: 25em;
+    margin: 0 0 1.5em 0;
+    height: 20em;
     max-height: 50vh;
     min-height: 18em;
     width: 100%;
@@ -3664,4 +3664,15 @@ button:disabled,
   border-top: 0;
   margin-top: 0;
   padding-top: 0;
+}
+
+/* Banner button: push it down a bit from the text above */
+#banner .actions {
+  margin-top: 2em;
+}
+
+#banner .subtitle,
+#banner .content p,
+#banner .note {
+  color: #000000;
 }
