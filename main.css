@@ -3670,3 +3670,9 @@ button:disabled,
 #banner .actions {
   margin-top: 2em;
 }
+
+#banner .subtitle,
+#banner .content p,
+#banner .note {
+  color: #000000;
+}
