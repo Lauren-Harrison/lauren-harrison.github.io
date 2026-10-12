@@ -3676,3 +3676,41 @@ button:disabled,
 #banner .note {
   color: #000000;
 }
+
+/* Index polish */
+#banner .note {
+  font-size: 0.85em;
+  font-style: italic;
+  margin-top: 1.5em;
+  opacity: 0.7;
+}
+
+#banner .actions {
+  flex-wrap: wrap;
+  gap: 0.75em 0;
+}
+
+#banner .image img {
+  box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.15);
+}
+
+.features article {
+  transition: transform 0.2s ease;
+}
+
+.features article:hover {
+  transform: translateY(-3px);
+}
+
+.features article h3 {
+  margin-bottom: 0.5em;
+}
+
+/* Contact button section */
+#main>.inner>section.contact-cta {
+  padding: 1.5em 0 2em 0;
+}
+
+#main>.inner>section.contact-cta ul.actions {
+  margin-bottom: 0;
+}
